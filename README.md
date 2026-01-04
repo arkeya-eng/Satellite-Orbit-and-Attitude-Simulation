@@ -69,6 +69,7 @@ The script produces:
 - Energy variation diagnostic
 - 3D ECI orbit plot with Earth visualisation
 
+![3D Orbit](images/Velocities.png)
 ---
 
 ## How to Run
