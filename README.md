@@ -75,4 +75,4 @@ The script produces:
 2. Place all files in the same directory
 3. Run the main script:
    ```matlab
-   two_body_orbit_propagator
+   TwoBodyOrbit.m
