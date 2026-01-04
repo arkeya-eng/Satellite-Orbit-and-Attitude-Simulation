@@ -33,6 +33,8 @@ This second-order equation is rewritten as a first-order system and numerically 
 - 3D orbit visualisation including a rendered Earth
 - Numerical validation via conservation of specific mechanical energy
 
+
+![3D Orbit](images/Energy_Conservation.png)
 ---
 
 ## Methodology
