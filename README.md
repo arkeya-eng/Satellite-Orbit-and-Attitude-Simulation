@@ -47,16 +47,16 @@ This second-order equation is rewritten as a first-order system and numerically 
 
 3. **Numerical Integration**  
    The two-body equations are integrated as a six-state first-order system:
-   \[
-   \dot{\mathbf r} = \mathbf v,\quad
-   \dot{\mathbf v} = -\mu \mathbf r / \|\mathbf r\|^3
-   \]
+   
+   dr/dt = v
+   dv/dt = − mu * r / |r|³
+   
    Integration is performed with `ode45` using tight relative and absolute error tolerances to ensure numerical accuracy.
 
-4. **Time Span Selection**  
+5. **Time Span Selection**  
    The integration interval is defined in terms of the orbital period computed from Kepler’s third law, and the orbit is propagated over multiple revolutions.
 
-5. **Validation**  
+6. **Validation**  
    Numerical accuracy is assessed by monitoring conservation of specific mechanical energy, which should remain constant for an ideal two-body system.
 
 ---
