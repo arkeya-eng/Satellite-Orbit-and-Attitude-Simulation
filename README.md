@@ -1,7 +1,7 @@
 # Satellite-Orbit-and-Attitude-Simulation
 
 
-This project implements a numerical two-body orbital mechanics propagator in MATLAB.  
+I was inspired to get ahead of my 3XXX space units approaching later this year. Hence, this project implements a numerical two-body orbital mechanics propagator in MATLAB.  
 It converts classical orbital elements into an Earth-centred inertial (ECI) Cartesian state and propagates the orbit by numerically integrating the two-body equations of motion.
 
 The simulation is designed to demonstrate orbital dynamics modelling, numerical integration, and basic validation techniques used in astrodynamics and space systems engineering.
