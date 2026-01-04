@@ -12,13 +12,11 @@ The simulation is designed to demonstrate orbital dynamics modelling, numerical 
 
 The satellite motion is modelled using the ideal two-body point-mass equation:
 
-\[
-\ddot{\mathbf r} = -\mu \frac{\mathbf r}{\|\mathbf r\|^3}
-\]
+dv/dt = - mu * r / |r|^3
 
 where:
-- \(\mathbf r\) is the satellite position vector in ECI coordinates
-- \(\mu\) is Earth’s gravitational parameter
+- r is the satellite position vector in ECI coordinates
+- mu is Earth’s gravitational parameter
 
 This second-order equation is rewritten as a first-order system and numerically integrated over time.
 
