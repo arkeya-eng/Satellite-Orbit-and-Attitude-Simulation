@@ -34,7 +34,8 @@ This second-order equation is rewritten as a first-order system and numerically 
 - Numerical validation via conservation of specific mechanical energy
 
 
-![3D Orbit](images/Energy_Conservation.png)
+![Energy Conservation](images/Energy_Conservation.png)
+
 ---
 
 ## Methodology
@@ -69,7 +70,8 @@ The script produces:
 - Energy variation diagnostic
 - 3D ECI orbit plot with Earth visualisation
 
-![3D Orbit](images/Velocities.png)
+![Velocities](images/Velocities.png)
+
 ---
 
 ## How to Run
