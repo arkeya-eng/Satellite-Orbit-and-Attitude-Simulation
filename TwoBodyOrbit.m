@@ -45,7 +45,7 @@ r = X(:,1:3);    % position history [m]
 v = X(:,4:6);    % velocity history [m/s]
 
 %% =========================================================
-%% OVERLAID STATE HISTORY PLOTS (ONE PAGE)
+%% OVERLAID STATE HISTORY PLOTS 
 %% =========================================================
 
 % Time in minutes
