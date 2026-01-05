@@ -81,3 +81,12 @@ The script produces:
 3. Run the main script:
    ```matlab
    TwoBodyOrbit.m
+
+--- 
+
+## Future Plans
+
+This project is continually being refined and developed upon. At the moment, I am working on:
+- Attitude dynamics and control modelling (rigid-body rotational dynamics)
+- Reaction wheel–based attitude control simulations
+- Coupled orbit–attitude propagation
